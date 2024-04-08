@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+html,head{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(186, 211, 234);
+}
+#main{
+    width: 100%;
+    height: 100vh;
+}
+.top{
+    width: 100vw;
+    min-height: 60vh;
+    background-image: url(https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlap{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.text{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(233, 238, 243);
+    width: 100%;
+    padding: 0 10vh;
+    bottom: auto;
+}
+.text h1{
+    font-weight: 600px;
+    font-size: 4vh;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 40vh;
+}
+.bottom .b1{
+    background-image: url(https://media.istockphoto.com/id/1454771222/photo/man-touching-a-floating-render-of-colorful-data-security-cloud-technology.jpg?s=612x612&w=0&k=20&c=LhcuIuxozRJD0PlUX5tLGpbPoNLblClCrHKLcAe57LU=);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: inherit;
+    color: aliceblue;
+}
+.bottom .b1 .b11{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: inherit;
+}
+.bottom .b2{
+    background-image: url(https://media.istockphoto.com/id/1408942205/photo/group-of-geometric-shapes-being-ejected-from-virtual-reality-goggles-on-a-square-base-against.jpg?s=612x612&w=0&k=20&c=jUA1RygkpMJKGxNt59OR7RvRFfYZacjet09lTN4JGJA=);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: inherit;
+    color: aliceblue;
+}
+.bottom .b2 .b22{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: inherit;
+}
+
+.bottom .b3{
+    background-image: url(https://media.istockphoto.com/id/1135131558/photo/stack-of-paper-euro-and-coins-with-reflection.jpg?s=612x612&w=0&k=20&c=50bXpQkcx5E1dsyZx1uci1FPB-tRjBFKNCMSCVwVKy8=);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: inherit;
+    color: aliceblue;
+}
+.bottom .b3 .b33{
+    background-color: rgba(0, 0, 0, 0.336);
+    height: inherit;
+}
+
+@media(max-width:500px){
+    #main .top .text{
+        color: aliceblue;
+        text-align: center;
+        font-size: 50vw;
+    }
+    #main .top{
+        width: 100%;
+        min-height: 80vh;
+    }
+    .top .text{
+        font-weight: bold;
+        width: 100vw;
+        font-style: italic;
+        color: aqua;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 40vh;
+    }
+    .b2{
+        width: 100%;
+        min-height: 40vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 40vh;
+    }
+}
+
+@media(min-width:500px) and (max-width:800px){
+    #main .top .text{
+        color: aliceblue;
+        text-align: center;
+        font-size: 70vw;
+    }
+    #main .top{
+        width: 100%;
+        min-height: 80vh;
+    }
+    .top .text{
+        font-weight: bold;
+        width: 100vw;
+        font-style: italic;
+        color: aqua;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 40vh;
+    }
+    .b2{
+        width: 100%;
+        min-height: 40vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 40vh;
+    }
+}
+
+
